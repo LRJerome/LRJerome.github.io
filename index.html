@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles de Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Mon style -->
+    <title>Portfolio Jérôme</title>
+</head>
+<body>
+
+    
+
+        <!-- {# BOOTSTRAP : Navbar #} -->
+        <nav class="navbar navbar-expand-lg w-100 position-absolute top-0">
+            <div class="container-fluid justify-content-center">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-collapse-custom" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto" style="width: 50%; justify-content: space-around;">
+                        <li class="nav-item">
+                            <a class="nav-link-custom btn" href="#apropos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-custom btn" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-custom btn" href="#realisations">Réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link-custom btn" href="#contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- {# header #} -->
+        <header class="container-fluid d-flex flex-column justify-content-center align-items-center p-5">
+            <div>
+                <p class="ff-Pacifico mt-3 text-center fs-1">Jérôme LE ROY</p>
+                <h1 class="fs-1 mt-1 text-center">Développeur web et web mobile "junior"</h1>
+            </div>
+            <div>
+                <img class="image-header m-5 rounded-circle shadow" src="#" alt="Image du header">
+            </div>
+
+            <a class="btn-header btn shadow fs-4 p-2 m-3" href="#contact">Contact</a>
+        </header>
+
+        <main class="bg-light h-100">
+            
+
+            <!-- {# apropos #} -->
+            <section id="apropos" class="about container-fluid  py-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-8 d-flex flex-column justify-content-center align-items-center py-2 px-3">
+                        <h2 class="mb-4">A PROPOS</h2>
+                        <p>Depuis aussi loin que remontent mes souvenirs, il y a toujours eu un ou plusieurs ordinateurs à la maison, comme des compagnons de jeu fidèles.</p>
+                        
+                        <p>Très tôt, l'informatique est devenue ma passion.  Je me suis formé grâce aux tutos en ligne, j'ai regardé beaucoup de videos "youtube". Mes débuts étaient modestes mais ô combien gratifiants , tout cela pour m'entraîner et, avouons-le, pour le plaisir pur et simple.</p>
+                        
+                        <p>Ma passion n'a fait que croître avec le temps, telle une plante bien arrosée. Aujourd'hui, je suis déterminé à transformer cette passion en une carrière florissante. Pour ce faire, j'ai suivi une formation "Développeur web et web mobile", via l'organisme Nexxt-formation'. J'ai appris React.js pour le développement front-end et Node.js pour le back-end, afin de maîtriser l'art de créer des applications web complètes et performantes.</p>
+                        
+                        <p>En parallèle, je me suis formé à Symfony, un framework PHP réputé pour sa robustesse et sa flexibilité. Je suis également à l'aise avec les méthodologies Merise pour la modélisation des données et la conception des systèmes d'information, ainsi que les concepts de Modélisation Conceptuelle des Données (MCD). De plus, j'ai acquis des compétences en gestion de projet grâce à ma connaissance des méthodes Agile et Scrum, qui encouragent une approche itérative et collaborative du développement. Bref, je suis prêt à conquérir le monde du développement, un code à la fois !</p>
+
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- {# compétences #} -->
+            <section id="competences" class="container-fluid text-center competences py-5">
+                <div class="row justify-content-center align-items-center mb-5">
+                    <div class="d-none d-sm-none d-md-none d-xl-flex col-xl-3 justify-content-end">
+                        #
+                    </div>
+                    <div class="col-xl-8 d-flex flex-column justify-content-center align-items-center ">
+                        <h3 class="mb-4">COMPÉTENCES</h3>
+                        <div class="text-start">
+                            <ul id="competences_list" class="list-group list-group-flush bg-light">
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Rédaction de cahiers des charges, spécifications fonctionnelles et techniques (Wireframe,
+                                maquettage, cas fonctionnel..) </li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Modélisation de données (Merise), bases de données relationnelles.</li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Travail collaboratif, construction de projets collaboratifs via Git (branches, correctifs,
+                                review..)</li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Connaissance en gestion de projet avec la méthode Agile Scrum et en travail en cycles courts pour améliorer continuellement le produit en collaboration avec une équipe.</li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Maîtrise de JavaScript pour l'ajout de fonctionnalité interactive aux pages web. ( manipulation du DOM, gestion des événements, et création d'animations ).</li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Connaissance des bibliothèques et frameworks tels que React, jQuery, et Node.js..</li>
+                                <li class="list-group-item"><i class="fa-solid fa-arrow-right mx-1"></i>Conception et déploiement d'applications web à l'aide de Symfony (CRUD, authentification,
+                                migration..)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- {# Technologie et langage #} -->
+            <section class="container-fluid text-center techno py-5">
+                <h3 class="mb-5 text-center">TECHNOLOGIES</h3>
+
+                <div class="row justify-content-evenly my-3">
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-html.png" alt="Logo html">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-css.png" alt="Logo css">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-js.png" alt="Logo javascript">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-php.png" alt="Logo php">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-bootstrap.png" alt="Logo bootstrap">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-react.png" alt="Logo react">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-symfony.png" alt="Logo symfony">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-git.png" alt="Logo git">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-node.png" alt="Logo git">
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                        <img class="m-3 w-50" src="./images/logo-agile.png" alt="Logo agile scrum">
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- {# Réalisation #} -->
+            <section id="realisations" class="realisations container-fluid bg-black-blue text-white project py-5">
+                <h3 class="mb-4 text-white text-center">REALISATIONS</h3>
+
+                <div class="row d-flex justify-content-center p-3">
+
+                    <div class="card col-md-10 col-lg-5 col-xxl-3 p-2 m-4">
+                        <img src="./images/green-guardians.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Green Guardians</h5>
+                            <p class="card-text">Application qui vise à encourager et à faciliter les efforts de
+                                préservation de l'environnement en permettant aux utilisateurs de contribuer à des
+                                projets de reforestation, de protection de la faune, et de nettoyage des déchets.
+                                L'application offre un moyen interactif et ludique pour les utilisateurs de s'impliquer
+                                dans la conservation de la nature et de suivre l'impact de leurs actions.</p>
+                            <a href="https://green-guardians.fr/" target="_bank" class="btn btn-primary w-100">Visiter</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-10 col-lg-5 col-xxl-3 p-2 m-4">
+                        <img src="./images/zomb.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zomb</h5>
+                            <p class="card-text">Jeu de survie captivant où votre objectif principal est de faire survivre un groupe de survivants le plus longtemps possible face à des vagues incessantes de hordes de zombies attaquant impitoyablement votre campement. Ce n'est pas tout, vous devrez également faire face à divers événements aléatoires qui testeront votre capacité à prendre des décisions rapides et judicieuses.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.balou94.Zomb" target="_bank" class="btn btn-primary w-100">Visiter</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- {# Contact #} -->
+            <section id="contact" class="container-fluid text-center contact p-5 d-flex flex-column justify-content-center align-items-center ">
+                <h3 class="mb-4 text-center">CONTACT</h3>
+
+                
+                <form class="container text-start" action="" method="post">
+                    <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="name" class="form-label">Nom<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="lastName" name="lastName">
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="prenom" class="form-label">Prénom<span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="firstName" name="firstName">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="company" class="form-label">Entreprise</label>
+                        <input type="text" class="form-control" id="company" name="company">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Adresse Email<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Numéro de téléphone</span></label>
+                        <input type="text" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="content" class="form-label">Message<span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="content" name="content" rows="3"></textarea>
+                    </div>
+                    <div class="my-4 text-center ">
+                        <button class="btn btn-primary w-100" type="submit">Envoyer</button>
+                    </div>
+                </form>
+            
+            </section>
+
+        </main>
+
+        <footer id="footer" class="container-fluid text-white p-5 d-flex justify-content-center align-items-center ">
+            <p>© Jérôme LE ROY</p>
+            
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
