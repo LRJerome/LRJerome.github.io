@@ -156,6 +156,9 @@ h3{
 #footer{
     font-family: "IBM_italic_light";
 }
+#tel{
+    max-height: 3rem;
+}
 
 .techno {
     position: relative;
