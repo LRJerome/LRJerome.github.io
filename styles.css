@@ -144,7 +144,10 @@ h3{
 #footer{
     background-color: var(--primary-color);
     border-radius: 10px 10px 0 0;
-    font-size: 2rem;
+    font-family: "IBM_italic_light";
+}
+#footer_tel{
+    max-height: 2rem;
 }
 #portrait{
     width: 30vw; /* Utilisation de vw pour une taille relative à la largeur de la fenêtre */
@@ -161,16 +164,6 @@ h3{
     max-width: 250px;
     max-height: 250px;
 }
-#footer{
-    font-family: "IBM_italic_light";
-}
-#header_tel{
-    max-height: 5rem;
-}
-#footer_tel{
-    max-height: 5rem;
-}
-
 .techno {
     position: relative;
     z-index: 1; /* Assure que le contenu est au-dessus du pseudo-élément */
