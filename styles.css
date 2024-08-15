@@ -32,7 +32,7 @@ body {
     background-color: var(--background-color);
 }
 header {
-    height: 700px;
+    max-height: 800px;
     background-color: var(--primary-color);
     color: white;
     text-align: center;
@@ -144,6 +144,7 @@ h3{
 #footer{
     background-color: var(--primary-color);
     border-radius: 10px 10px 0 0;
+    font-size: 2rem;
 }
 #portrait{
     width: 30vw; /* Utilisation de vw pour une taille relative à la largeur de la fenêtre */
@@ -152,11 +153,21 @@ h3{
     max-height: 200px; /* Limite la hauteur maximale pour correspondre à la largeur */
     border-radius: 50%; /* Assure que l'image reste ronde */
     object-fit: cover; /* Assure que l'image est bien ajustée dans le conteneur */
+    transition: 0.2ms;
+}
+#portrait:hover {
+    width: 35vw;
+    height: 35vw;
+    max-width: 250px;
+    max-height: 250px;
 }
 #footer{
     font-family: "IBM_italic_light";
 }
-#tel{
+#header_tel{
+    max-height: 5rem;
+}
+#footer_tel{
     max-height: 5rem;
 }
 
