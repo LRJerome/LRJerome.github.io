@@ -36,7 +36,7 @@ git clone https://github.com/votre-utilisateur/mon-portfolio.git
 
 ## Contact
 
-Pour toute question, veuillez me contacter à [votre.email@example.com](mailto:votre.email@example.com).
+Pour toute question, veuillez me contacter à le.roy.jerome@hotmail.com.
 
 ## Vous pouvez également voir ce portfolio à l'adresse suivante : [https://lrjerome.github.io](https://lrjerome.github.io)
 ```
